@@ -11,13 +11,13 @@ module.exports = app;
 
 app.use(
     "/api/v1/quotes",
-    cors({origin: ["http://localhost:4200","https://rick-van-der-eijk.web.app/"]}),
+    cors({origin: ["http://localhost:4200","https://rick-van-der-eijk.web.app"]}),
     quotesRouter
   );
  
   app.use(
     "/api/v1/emails",
-    cors({origin: ["http://localhost:4200","https://rick-van-der-eijk.web.app/"]}),
+    cors({origin: ["http://localhost:4200","https://rick-van-der-eijk.web.app"]}),
     emailRouter
   );
   
